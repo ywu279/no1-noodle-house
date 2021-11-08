@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    /* background-color: #eee3c7; */
+    font-family: Candara, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+/* Header */
+#logo {
+    height: 120px;
+    position: absolute;
+    padding: 0px 0px 0px 50px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav, nav a {
+    background-color: #810202;
+    color: #eee3c7;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 25px 13px 25px;
+}     
+  
+nav a:hover {
+    background-color:#eee3c7;
+    color: #9c0303;
+}
+
+
+
+/* Main content of the landing page*/
+#section1 {
+    background-image: url('images/landingImage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: whitesmoke;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*default is flex-start*/
+    align-items: center; /*default is stretch*/
+    text-align: center;
+    padding: 0 200px;
+}
+
+#section1 h1 {
+    font-size: 50px; 
+}
+
+#section1 p {
+    font-size: 20px;
+}
+
+#section1 .button {
+    background-color: #c30000;
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 0;
+    margin-top: 20px;
+}
+
+#section1 .button:hover {
+    background-color: #eee3c7;
+    color:#c30000;
+}
+
+@media(min-width:768px){
+    #section2 {
+        display: flex;
+        text-align: center;
+        background-color: #eee3c7;
+    }
+}
+
+#section2 div {
+    background-color: #9c0303;
+    color: whitesmoke;
+    padding: 20px 40px;
+    margin: 40px 30px;
+    border-radius: 10px;
+}
+
+#section2 h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 0;
+    color: #eee3c7;
+}
+
+#section2 hr{
+    width: 100px;
+    border: rgb(126, 126, 60) 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#section3 {
+    background-image: url('images/landingImage2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.blankSpace {
+    flex: 2;
+}
+
+.ourStory {
+    flex: 1;
+    padding: 150px 50px;
+    color: whitesmoke;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.ourStory h2 {
+    font-size: 50px; 
+}
+
+.ourStory p {
+    font-size: 20px;
+}
+
+.ourStory hr {
+    width: 100px;
+    border: rgb(126, 126, 60) 2px solid;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Footer */
+footer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 0.2fr 1fr 1fr 1fr;
+    padding: 20px 0px;
+}
+
+footer, footer a {
+    background-color: #810202;
+    color: #eee3c7;
+    line-height: 1.5;
+}
+
+#logo2 {
+    height: 100px;
+    padding: 0px 0px 0px 20px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+#logoName {
+    height: 50px;
+    padding: 0px 0px 20px 20px;
+}
+
+#verticalLine {
+    height: 130px;
+    border-left: 2px solid #eee3c7;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0 0 10px 0;
+}
+
+address{
+    font-style: normal;
+}
+
+/* table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #7db4df;
+    color: white;
+}
+
+td {
+    width: 150px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+label {
+    float: left;
+    width: 25%;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 2px;
+}
+
+input[type=text]:focus {
+    border: 2px solid #555;
+  }
+
+input[type=submit] {
+    background-color: #133854;
+    color: white;
+    height: 40px;
+    border: 1px solid #7db4df;
+    border-radius: 4px;
+
+}
+
+input[type=submit]:hover {
+    background-color:#7db4df;
+}
+
+.contact {
+    position: relative;
+    left: 15%;
+}
+
+.col1, .col2 {
+    float: left;
+    width: 50%;
+}
+
+.rowA:after, .rowB:after {
+    content: "";
+    display: table;
+    clear: both;
+} */

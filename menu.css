@@ -1,0 +1,50 @@
+main {
+    background-image: url(images/bgImage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+    padding-bottom: 200px;
+    padding-top: 20px;
+}
+
+.title {
+    color: whitesmoke;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: 200px;
+}
+
+hr {
+    width: 130px;
+    border: rgb(126, 126, 60) 2px solid;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    background-color: #fff8e6;
+    padding: 20px 50px 70px 50px;
+    margin: 0px 200px;
+}
+
+.menu h1 {
+    color: #c30000;
+    padding-top: 50px;
+}
+
+table {
+    width: 100%;
+    line-height: 1.5;
+}
+
+td {
+    padding: 0 10px 0 0;
+}
+
+h2:after {
+    content: "..................";
+    letter-spacing: 6px;
+    font-weight: 100;
+    float: right;
+
+}
