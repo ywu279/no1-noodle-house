@@ -13,8 +13,8 @@ This website is published at https://ywu279.github.io/no1-noodle-house
 
 ## Acknowledgements
 A list of recourses I found helpful and would like to give credit to:
+- [Landing page image](https://flic.kr/p/FNbp5p) - Steamed up cooking chef by Francesca Mazza on Flickr
 - [Pexels](https://www.pexels.com/)
-- [Landing page image - steamed up cooking chef](https://flic.kr/p/FNbp5p)
 
 
 
