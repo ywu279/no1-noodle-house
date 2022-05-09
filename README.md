@@ -11,13 +11,10 @@ This website is published at https://ywu279.github.io/no1-noodle-house
 ## Roadmap
 ![website map](https://user-images.githubusercontent.com/58931129/167337561-ac48eedc-ed82-4575-82b5-eb545eaffb74.png)
 
-## Contributing
-Any contributions are more than welcome. If you have a suggestion that would make this better, please fork the repo and create a pull request. Don't forget to give the project a star!:star2:
-
 ## Acknowledgements
 A list of recourses I found helpful and would like to give credit to:
 - [Pexels](https://www.pexels.com/)
-- 
+- [Landing page image - steamed up cooking chef](https://flic.kr/p/FNbp5p)
 
 
 
