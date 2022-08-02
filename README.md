@@ -1,7 +1,6 @@
 #  A static restaurant website using HTML and CSS
 The purpose is to build a website for the no.1 noodle house restaurant. The website aims to deliver a warm and comfortable feeling to the customers.
-
-This website is published at https://ywu279.github.io/no1-noodle-house
+<br><h3>[View Live Demo](https://ywu279.github.io/no1-noodle-house)</h3>
 
 <*CST8117 Cross-Platform Web Design Assignment 1*>
 
